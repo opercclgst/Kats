@@ -7,7 +7,7 @@ from typing import Dict, List, Optional
 
 import kats.models.model as m
 import pandas as pd
-from fbprophet import Prophet
+from prophet import Prophet
 from kats.consts import Params, TimeSeriesData
 from kats.utils.parameter_tuning_utils import (
     get_default_prophet_parameter_search_space,
