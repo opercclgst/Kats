@@ -12,8 +12,8 @@ from typing import Optional
 
 import numpy as np
 import pandas as pd
-from fbprophet import Prophet
-from fbprophet.serialize import model_from_json, model_to_json
+from prophet import Prophet
+from prophet.serialize import model_from_json, model_to_json
 from kats.consts import TimeSeriesData
 from kats.detectors.detector import DetectorModel
 from kats.detectors.detector_consts import (
